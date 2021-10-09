@@ -157,7 +157,7 @@ if(isset($_POST['submit']))
 					<input type="text" name="email" placeholder="メール" class="form-control" value="<?php echo ($valEmail??'')?>">
 				</div>
 				<div class="form-group">
-				<label for="email">パスワード:</label>
+				<label for="password">パスワード:</label>
 					<input type="password" name="password" placeholder="パスワー" class="form-control" value="<?php echo ($valPassword??'')?>">
 				</div>
 
